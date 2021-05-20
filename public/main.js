@@ -1,4 +1,4 @@
-/*let team1Count = 0
+let team1Count = 0
 let team2Count = 0
 function changeTeam1Score(event) {
   const clickedButton = event.target
@@ -11,7 +11,7 @@ function changeTeam1Score(event) {
   const score = document.querySelector('team1 h3')
   score.textContent = `${team1Count}`
 }
-*/
+
 //Update Team 1 Name
 function updateTeam1Name(evt) {
   const teamName = document.querySelector('.team1 h2')
